@@ -1,0 +1,49 @@
+					Welcome to FreeBSD-SMIT
+			
+Smit Overview:
+
+SMIT is a program that originally appeared on IBM's AIX UNIX 
+Operating System. AIX users often referred it as SMIT or smitty.
+
+This is either a console Menu driven tool that uses  a lot of
+korn shell scripts for it's management. It is also an X Gui tool
+if it is ran from X.
+
+This program does have same name and the layout may look similar
+in sense of the menu and the function keys at the bottom.
+
+This version of SMIT is written in C/Ncurses and is BSD licensed. 
+This is called BSD-SMIT but will carry the same of the OS it is for
+ie FreeBSD-SMIT and NeXTBSD-SMIT. For more information about
+NeXTBSD please look it up as it is a new Freebsd based Operating
+System that is designed to use a MACH kernel.
+
+Main Menu:
+
+ System information - That just displays information about the 
+ system it is running on.
+
+ User & Group manager, Filesystem Management and software management.
+ Are all menus that is specific for this type of function.
+ 
+ 
+ System Configuration manager is another menu that is designed for
+ configuring the system. 
+ 
+ Help - This screen
+ 
+ About SMIT - Shows copyright
+ Quit - Exits the main menu to console.
+ 
+ Function Keys
+ 
+ F1=Help
+ F2=Refresh
+ F3=Cancel - Does nothing but for compatibility
+ F9=shell - Executes the default shell
+ F10=Quit - Exits
+ 
+ 
+ Enter=Do - Action
+ 
+ 

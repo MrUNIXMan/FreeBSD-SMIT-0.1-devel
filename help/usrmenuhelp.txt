@@ -1,0 +1,52 @@
+				Help for the User Menu
+		
+User Manager:
+
+     This is TUI which had it's ideas from SCO's SCOadmin.  
+     This will feature a user list which is  still being worked on 
+     as, C programming is a not so new to me and still learning it. 
+     I tend to do it as a hobby in spare time.
+     
+     However SCO admin on UNIX is an interpreted lanagauge that uses /usr/bin/osavtcl 
+     to draw out the TUI.
+     Where this is more written in C, so therefore contains no UNIX code.
+     
+     
+     This type of stuff did start with shell scripting and attempted to 
+     write it in python, then went to C.
+     
+List Logged in Users:
+
+	 This is a modified version of WHO from FreeBSD to be displayed 
+	 in to an Ncurses environment.
+	 
+User Info:
+
+	This searches up a username and displays a user that was requested.
+	
+Add a User:
+
+	This is a SMIT (AIX) Look a like interface also can be accessed from Usermanager.
+	This will allow you to add users to the system. It does not do anything but 
+	display and allows editing of fields at this moment.
+	
+Remove a user:
+
+	To remove a user from the system - Not implented Yet
+	
+Modify a user:
+
+	Allows you to modify a user - Not implented Yet
+	
+
+
+Add, Modify and Remove a Group:
+     Do similar to users but for Groups and None are Implented Yet
+
+
+Help - This Screen
+
+Quit - Depends how it is ran, if ran from command prompt as an argument then
+ back to the command prompt. If accessed from main menu then back to the main menu.
+
+F10 Key does it too.

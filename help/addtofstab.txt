@@ -1,0 +1,48 @@
+Note: 	This does not apply to users of the ZFS filesystems as it is not supported due to use
+	of ufs filesystems on the developer's host.
+
+This option will allow you add entries by appending to the /etc/fstab file via the User Interface.
+All Fields are required to be filled in, including the DUMP and Pass fields.
+
+Fields in more detail:
+
+Device Name - this refers to disks that is followed by /dev/whatever_disk. This is sometimes
+referred to as a Filesystem Node or other UNIX based OS df shows it as Filesystem.
+This can be a server for Network access too.
+
+Mount Point - A Directory a user wishes to mount to
+
+Fstype - Filesystem Type, needs to be supported by the OS.
+
+Supported Types:
+
+cd9660  - Cdrom ISO filesystem
+msdosfs - MSDOS/Windows Filesystem
+udf     - DVD Filesystems I think
+fusefs  - FUSE Filesystem, suggest research for using fuse.
+nfs     - Network Filesystems
+unionfs - Union Filesystem 
+nullfs  - Null Filesystems (Used in Jails)
+ufs	- UNIX Filesystem
+ext2fs  - Linux Filesystem (Fuse may be required for ext3 and 4) 
+
+
+Options - This permit typing in options at mount time (rw, noauto and etc). Each option
+is seperated by a comma.
+
+Dump - This determines weather a filesystem can be dumped using the dump command. Only the root file
+       systems seems to have this set as 1. If not sure put 0 in this field for non root filesystems
+       or other OS filesystems.
+
+Pass - This relates to fsck program, again like Dump it is not required on Non root or different filesystem
+       made by other OS.
+
+Keys 
+
+F1 = Help (This Screen)
+
+F2 - F7 Permits editing of the fields mentioned above
+
+F9 - Add, this will add to fstab file
+F10 - Cancel, goes back without saving
+

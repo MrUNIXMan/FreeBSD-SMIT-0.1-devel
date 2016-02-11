@@ -1,0 +1,16 @@
+				Help for the User Manager
+				
+This is a SCO Admin like interface. As that is where the idea did 
+orignially came from to create this system as well as some parts 
+from SMIT.
+
+The user list table  - Not yet complete as I need to find a way to
+ scroll up/down on this as well as be able to select usernames.
+ 
+F4. Add user, goes to Add User Dialog
+F5. Remove User
+F6. Modify User
+
+
+
+The other controls are pretty much the same.
